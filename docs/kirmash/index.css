@@ -1,0 +1,31 @@
+
+
+.logo {
+    border-radius: 7px;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+
+
+
+
+.content-container {
+    border-radius: 7px;
+    background: #f5fffa;
+    margin: 7px;
+    padding: 7px;
+}
+
+
+
+.flex-container {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     background: #f5fffa;
+     border-radius: 7px;
+     padding: 7px;
+}
+
