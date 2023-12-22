@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="eng">
 <head>
+    <meta charset="utf-8">
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -10,27 +11,18 @@
     <link rel="stylesheet" href="index.css">
 </head>
 
-<body style="margin: auto;">
+<body>
 
 
 <div class="flex-container">
     <img class="logo" src="logo.jpg" alt="logo">
-    <div style="">
-        <span class="mdc-typography--headline6 app-name">Kirmash trade</span>
-        <span class="mdc-typography--body1 app-name" style="margin: 5px;">Privacy Policy</span>
-    </div>
+    <span class="mdc-typography--headline6">Kirmash trade</span>
+    <span class="mdc-typography--body1" style="margin: 5px;">Privacy Policy</span>
 </div>
-<!-- <div class="flex-container">
-
-    <button id="terms_btn" class="mdc-button">
-        <div class="mdc-button__ripple"></div>
-        Terms and Conditions
-    </button>
-</div> -->
 
 <div class="content-container">
     <p>
-        Andrei Naumets created the Kirmash Trade application.
+        Andrey Naumets created the Kirmash Trade application.
         This application is free and available to everyone.
     </p>
     <p>
@@ -215,9 +207,5 @@
 
 
 </body>
-<script>
-    mdc.ripple.MDCRipple.attachTo(document.querySelector('#pp_btn'));
-    mdc.ripple.MDCRipple.attachTo(document.querySelector('#terms_btn'));
-</script>
 
 </html>

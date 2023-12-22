@@ -7,18 +7,12 @@
     margin: 5px;
 }
 
-
-
-
-
 .content-container {
     border-radius: 7px;
     background: #f5fffa;
-    margin: 7px;
     padding: 7px;
+    margin-top: 7px;
 }
-
-
 
 .flex-container {
      display: flex;
@@ -27,5 +21,10 @@
      background: #f5fffa;
      border-radius: 7px;
      padding: 7px;
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
 }
 
